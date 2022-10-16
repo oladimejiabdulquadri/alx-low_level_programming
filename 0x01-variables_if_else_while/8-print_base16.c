@@ -8,12 +8,12 @@ int main(void)
 
 {
 	int i;
-	char ch;
+	char c;
 
 	for
 	{
-		(i = 48);
-		(i < 5);
+		(i = '0');
+		(i < '9');
 		(i++);
 	}
 
@@ -23,13 +23,13 @@ int main(void)
 	}
 	for
 	{
-		(ch = 'a');
-		(ch <= 'f');
-		(ch++);
+		(c = 'a');
+		(c <= 'f');
+		(c++);
 	}
 
 	{
-		putchar(ch);
+		putchar(h);
 
 	}
 	putchar('\n');
