@@ -7,18 +7,18 @@
 int main(void)
 
 {
-	int n;
+	int i;
 	char ch;
 
 	for
 	{
-		(n = 48);
-		(n < 5);
-		(n++);
+		(i = 48);
+		(i < 5);
+		(i++);
 	}
 
 	{
-		putchar(n);
+		putchar(i);
 
 	}
 	for
