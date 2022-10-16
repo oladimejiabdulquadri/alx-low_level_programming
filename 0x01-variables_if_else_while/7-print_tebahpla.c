@@ -1,9 +1,9 @@
 #include <stdio.h>
-**/
+/**
 *main - print alphabet in reverse
 * followed by a new line
 * Return : always 0 (success)
-* /
+*/
 int main(void)
 
 {
@@ -16,7 +16,7 @@ int main(void)
 		c--;
 
 	}
-	putchar('/n');
+	putchar('\n');
 
 	return (0);
 }
