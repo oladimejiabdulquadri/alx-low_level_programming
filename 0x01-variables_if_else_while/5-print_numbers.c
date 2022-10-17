@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
 *main - print nubers in base 10
 * followed by
@@ -7,9 +8,9 @@
 int main(void)
 
 {
-	char n;
+	int n;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 0; n < 10; n++)
 	{
 		printf("%d", n);
 
