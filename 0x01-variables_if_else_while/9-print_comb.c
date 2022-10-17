@@ -2,7 +2,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 /**
-*main -
+*main - printing all possibe combinations
+* of single digit numbers
 *followed by a new line
 * Return : always 0 (Sucess)
 */
