@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
 *main -
 *followed by a new line
@@ -12,7 +13,7 @@ int main(void)
 	for
 	{
 		(n = '0');
-		(n < '9');
+		(n <= '9');
 		(n++);
 	}
 
