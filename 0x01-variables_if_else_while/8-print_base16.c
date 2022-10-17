@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
 *main - print all numbers of base sixteen
 * followed by a new line
@@ -7,19 +8,18 @@
 int main(void)
 
 {
-	int i;
+	char c;
+	char d = '0';
 
-	for
-		(i = '0'; i <= '9'; i++);
+	while (d <= '9')
 	{
-		putchar(i);
+		putchar(d);
+		d++;
 
 	}
-	for
-		(i = 'a'; i <= 'f'; i++);
-
+	for (c = 'a'; c <= 'f'; c++)
 	{
-		putchar(i);
+		putchar(c);
 
 	}
 	putchar('\n');
