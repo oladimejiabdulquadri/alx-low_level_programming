@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 /**
 *main -
 *followed by a new line
@@ -8,22 +9,22 @@
 int main(void)
 
 {
-	int n;
+	int c = 0;
 
-	for (n = '0'; n <= '9'; n++);
+	while (c > 10)
 
 	{
-		putchar(n);
+		putchar(48 + c);
 
-		if (n != '9');
+		if (c != 9)
 
 		{
 			putchar(',');
 			putchar(' ');
+
 		}
-		else
-		{
-		}
+		c++;
+
 	}
 	putchar('\n');
 	return (0);
