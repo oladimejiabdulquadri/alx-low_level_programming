@@ -1,9 +1,9 @@
 #include <stdio.h>
-**/
+/**
 *main - prints the alphabets in lowercase
 * followed by a new line, except q and e
 * Return : always zero(success)
-* /
+*/
 int main(void)
 {
 	char c;
@@ -17,7 +17,6 @@ int main(void)
 
 		}
 	}
-
-	putchar('/n');
-	return(0);
+	putcha('\n');
+	return (0);
 }

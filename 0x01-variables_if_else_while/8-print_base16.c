@@ -1,9 +1,9 @@
 #include <stdio.h>
-**/
+/**
 *main - print all numbers of base sixteen
 * followed by a new line
 * Return : always 0 (success)
-* /
+*/
 int main(void)
 
 {
