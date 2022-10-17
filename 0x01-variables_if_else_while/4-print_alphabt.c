@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd,h>
+#include <unistd.h>
 /**
 *main - prints the alphabets in lowercase
 * followed by a new line, except q and e
