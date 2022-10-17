@@ -1,20 +1,19 @@
 #include <stdio.h>
 /**
-*main
+*main - print nubers in base 10
 * followed by
 * Return : always 0 (success)
 */
 int main(void)
 
 {
-	int n;
+	char n;
 
 	for (n = 0; n <= 9; n++)
 	{
 		printf("%d", n);
 
 	}
-	
 	printf('\n');
 	return (0);
 }
