@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  *Main - write a program to print _putchar
- * Return : should be 0
- * Description : print putchar and return 0
+ * Return : return value should be 0 (success)
+ *
+ * Description : print _putchar and return 0
  */
 int main(void)
 {
