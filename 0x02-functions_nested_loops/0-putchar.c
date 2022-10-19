@@ -4,9 +4,11 @@
 *Description - use _putcahr only
 *Return: should always be 0
  */
-int main(void)
+int main(void);
 {
-	_putchar("_putchar\n");
+	{
+		_putchar("_putchar\n");
+	}
 	
 	return (0);
 
