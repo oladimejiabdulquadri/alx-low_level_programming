@@ -1,4 +1,4 @@
-#inclde "main.h"
+#include "main.h"
 /**
   *_strcpy - prints string in pointed src to dest
   *@src: first pointer
