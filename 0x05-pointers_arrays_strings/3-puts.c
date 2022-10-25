@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-  *_put - print a string to standard output
+  *_puts - print a string to standard output
   *@str: the standard ouput
   * Return: Always 0
   */
-void _put(char *str)
+void _puts(char *str)
 {
 	int i;
 
