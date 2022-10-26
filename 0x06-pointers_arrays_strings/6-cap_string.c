@@ -1,26 +1,26 @@
 include "main.h"
 /**
  *cap_string - capitalise all words
- *@n: string to be capitalised
+ *@str: string to be capitalised
  * Return: capitalised str
  */
-char *cap_string(char *n)
+char *cap_string(char *str)
 {
 	int i = 0;
 
-	while (n[i])
+	while (str[i])
 	{
-		while (!(n[i] >= 'a' && n[i] <= 'z'))
+		while (!(str[i] >= 'a' && str[i] <= 'z'))
 		{
 			i++;
 		}
-		if (n[i - 1] == ' ' || n[i - 1] == '\t' || n[i - 1] == '\n' ||
-				n[i - 1] == ',' || n[i - 1] == ';' || n[i - 1] == '.' ||
-				n[i - 1] == ':' || n[i - 1] == '?' || n[i - 1] == '"' ||
-				n[i - 1] == ')' || n[i - 1] == '(' || n[i - 1] == '}' ||
-				n[i - 1] == '{' || i == 0)
+		if (str[i - 1] == ' ' || str[i - 1] == '\t' || str[i - 1] == '\n' ||
+				str[i - 1] == ',' || str[i - 1] == ';' || str[i - 1] == '.' ||
+				str[i - 1] == ':' || str[i - 1] == '?' || str[i - 1] == '"' ||
+				str[i - 1] == ')' || str[i - 1] == '(' || str[i - 1] == '}' ||
+				str[i - 1] == '{' || i == 0)
 		{
-			n[i] -= 32;
+			str[i] -= 32;
 		}
 		i++;
 	}
